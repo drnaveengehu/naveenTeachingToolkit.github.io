@@ -5,6 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My AI Teaching Toolkit</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -43,6 +56,18 @@
         Your browser does not support the audio element.
       </audio>
       <p><a href="https://notebooklm.google.com/notebook/d102ab23-1cb8-474f-b5f9-4ab1a1734470/audio" target="_blank">Listen on NotebookLM</a></p>
+    </section>
+
+    <section class="card">
+      <h2>🖼️ AI Image Gallery</h2>
+      <p>Explore AI-generated images related to <strong>Computer Hardware</strong> concepts:</p>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200.png?text=AI+Chip+Design" alt="AI-generated chip design">
+        <img src="https://via.placeholder.com/300x200.png?text=Motherboard+Architecture" alt="Motherboard Architecture">
+        <img src="https://via.placeholder.com/300x200.png?text=Futuristic+Processor" alt="Futuristic Processor">
+        <img src="https://via.placeholder.com/300x200.png?text=AI+Lab+Render" alt="AI Lab Render">
+        <img src="https://via.placeholder.com/300x200.png?text=Digital+Circuit+AI" alt="Digital Circuit AI">
+      </div>
     </section>
   </main>
 
